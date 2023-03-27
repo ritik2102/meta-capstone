@@ -4,12 +4,12 @@ a{
     margin: 5px;
 }
 
-.main-page{
+/* main-page{
     display: grid;
-    grid-template-rows: 1fr 2.5fr 3.5fr 3fr 1fr 1.5fr;
-}
+    grid-template-rows: 1fr 9.5fr 3fr;
+} */
 .nav-links{
-    margin:0px 50px;
+    /* margin:0px 50px; */
     font-weight: 500;
     font-size: larger;
 }

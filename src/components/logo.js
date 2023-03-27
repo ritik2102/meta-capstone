@@ -3,11 +3,11 @@ export function Logo(){
     const styles={
         margin:"20px",
         display:'inline-block',
-        marginLeft:"300px",
+        // paddingLeft:"160px",
         width:"170px"
     }
     return (
-    <div>
+    <div style={{textAlign:"right"}}>
         <img style={styles} src={logo}/>
     </div>
     );

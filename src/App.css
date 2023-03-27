@@ -39,5 +39,6 @@
 
 .main-page{
   display:grid;
-  grid-template-rows: 1fr 2.5fr 3.5fr 3fr 3fr 2fr;
+  grid-template-rows: 1fr 2.5fr 3.5fr 3fr 1.5fr 1fr;
+  
 }

@@ -7,10 +7,10 @@ export function Hero(){
             <div>
                 <h1 style={{marginLeft:"300px",marginBottom:"0px",color:"#F4CE14",fontSize:"40px"}}>Little Lemon</h1>
                 <h4 style={{marginLeft:"300px",marginTop:"0px",marginBottom:"15px",color:"white",fontSize:"20px"}}>Chicago</h4>
-                <p style={{color:"white",width:"205px",marginTop:"0px",marginLeft:"300px"}}>We are a family owned Meditteranean restaurant, focused on traditional recipes served with amodern twist.</p>
-                <button style={{marginLeft:"300px",width:"150px",height:"40px",borderRadius:"10px",fontWeight:"bold",fontSize:"15px",backgroundColor:"#F4CE14"}}>Reserve a Table</button>
+                <p style={{color:"white",width:"205px",marginTop:"0px",marginLeft:"300px",fontFamily:"serif",fontSize:"20px"}}>We are a family owned Meditteranean restaurant, focused on traditional recipes served with amodern twist.</p>
+                <button style={{marginLeft:"300px",width:"150px",height:"40px",borderRadius:"10px",fontWeight:"bold",fontSize:"15px",backgroundColor:"#F4CE14"}}  type="submit" ><a href="/booking">Reserve a Table</a></button>
             </div>
-            <img style={stylesImage} src={image}/>
+            <img style={stylesImage} src={image} alt="home"/>
         </div>
     );
 };
